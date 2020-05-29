@@ -13,7 +13,7 @@ Run book service first by going into bookservice directory on cmd and run:
 Then setup library microservice in the same way as bookservice:
      
      mvn clean install
-     java -jar target\java -jar target\bookservice-0.0.1-SNAPSHOT.jar
+     java -jar target\libraryservice-0.0.1-SNAPSHOT.jar
      
 After that, run the api below to test that book microservice is working fine:
 
